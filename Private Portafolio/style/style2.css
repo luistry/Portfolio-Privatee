@@ -1,0 +1,87 @@
+html {
+    background-color: black;
+    font-family: sans-serif;
+    font-size:67.5%
+
+
+}
+h1 {
+    text-align: center;
+    color:white
+}
+
+.name {
+    font-family: sans-serif;
+    font-weight: bold;
+    transform: translate(0px,20px);
+    color:white
+
+
+}
+a {
+ color: white;
+    text-decoration: none;
+}
+a { display: flex;
+    font-size: 25px;
+justify-content: space-between;
+text-align: center;
+}
+.barranav :hover{ 
+    color:gray
+}
+.enlace :hover{ 
+    color:gray
+}
+a {
+    margin:auto
+}
+.enlace { 
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(46, 42, 42, 0.773);
+    padding: 1rem;
+    margin: auto;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    flex-direction: column;
+justify-content: space-between;
+text-align: center;
+}
+.linked:hover {
+    background-color: rgb(105, 219, 247);
+    border-radius: 45px
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:white
+
+}
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+ul {
+    color: white;
+ 
+}
+li {
+    text-align: center;
+}
+.content-2 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+@media (min-width: 768px ) {
+   
+    .enlace {
+     flex-direction: row;
+    }
+      }
